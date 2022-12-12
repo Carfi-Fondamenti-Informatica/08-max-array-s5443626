@@ -6,11 +6,11 @@ int main(){
     int n=0;
   cin >>n;
     float dimensione[n];
-    for(int i=0;i<n;i++){
-        cin >> dimensione [i];
+    for(int i=0; i<n; i++){
+        cin >> dimensione[i];
     }
    for (int i=0;i<n;i++){
-       float d=max(dimensione[1],dimensione[i-1]);
+       float d=max(dimensione[1], dimensione[i-1]);
        if (d>x){
            x=d;
        }
