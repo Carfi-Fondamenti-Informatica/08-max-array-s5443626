@@ -10,7 +10,7 @@ int main(){
         cin >> dimensione[i];
     }
    for (int i=1;i<n;i++){
-       float d=max(dimensione[1], dimensione[i-1]);
+       float d=max(dimensione[i], dimensione[i-1]);
        if (d>x){
            x=d;
        }
