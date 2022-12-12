@@ -14,6 +14,7 @@ int main(){
        if (d>x){
            x=d;
        }
-   }cout << x;
+   }
+    cout << x;
   return 0;
 }
