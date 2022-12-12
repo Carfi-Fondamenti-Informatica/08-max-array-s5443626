@@ -1,9 +1,10 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
+float x=0;
 int main(){
-  float x=0;
-  int n=0
+    int n=0;
+  cin >>n;
     float dimensione[n];
     for(int i=0;i<n;i++){
         cin >> dimensione [i];
