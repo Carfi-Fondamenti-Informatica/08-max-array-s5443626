@@ -1,1 +1,2 @@
 
+float max(float, float);
